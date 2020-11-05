@@ -19,7 +19,6 @@ color_list = [(224, 222, 217), (207, 153, 110), (221, 225, 223), (220, 204, 127)
 
 t.colormode(255)
 tim = t.Turtle()
-t.penup()
 t.hideturtle()
 t.speed("fastest")
 
@@ -33,9 +32,7 @@ for r in range(10):
 
         # draw a dot
         t.pendown()
-        t.begin_fill()
         t.dot(10)
-        t.end_fill()
         t.penup()
 
         t.forward(30)
